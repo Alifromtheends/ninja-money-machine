@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TL;DR</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <span class="logo-mark">TL;DR</span>
+    </div>
+    <p class="subtitle">A 3-bullet summary of any page</p>
+  </header>
+
+  <main class="main">
+    <button id="summarize-btn" class="btn-primary" type="button">
+      <span class="btn-label">Summarize this page</span>
+      <span class="btn-spinner" aria-hidden="true"></span>
+    </button>
+
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+
+    <ul id="bullets" class="bullets" hidden></ul>
+
+    <div id="meta" class="meta" hidden>
+      <span id="meta-source" class="meta-source"></span>
+      <button id="copy-btn" class="btn-ghost" type="button">Copy</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>Runs offline · No data leaves your browser</span>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

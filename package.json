@@ -1,0 +1,25 @@
+{
+  "name": "ninja-money-machine",
+  "version": "1.0.0",
+  "description": "AI-powered business factory - scouts, builds, launches, and tracks micro-products",
+  "main": "orchestrator.js",
+  "scripts": {
+    "start": "node orchestrator.js",
+    "scout": "node agents/scout.js",
+    "build": "node agents/builder.js",
+    "launch": "node agents/launcher.js",
+    "tracker": "node tracker/dashboard.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.0.0",
+    "node-cron": "^3.0.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "openai": "^4.0.0",
+    "fs-extra": "^11.0.0",
+    "simple-git": "^3.20.0",
+    "nodemailer": "^6.9.0",
+    "dotenv": "^16.3.0"
+  }
+}

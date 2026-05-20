@@ -1,0 +1,11 @@
+{
+  "updated": "2026-05-20T02:00:00+07:00",
+  "mode": "LIVE",
+  "products": [
+    { "name": "TL;DR Pro", "price": 500, "price_id": "price_1TYsrRE2zWEijO1vImfQyBoW" },
+    { "name": "PostPilot Pro", "price": 900, "price_id": "price_1TYsrJE2zWEijO1vgPFej4X4" },
+    { "name": "PostPilot Team", "price": 2900, "price_id": "price_1TYsrHE2zWEijO1vtMmc1j57" },
+    { "name": "NoteNinja Pro", "price": 1200, "price_id": "price_1TYsrFE2zWEijO1vLFy3Ivp3" },
+    { "name": "NoteNinja Enterprise", "price": 4900, "price_id": "price_1TYsrCE2zWEijO1vnPJN4MD5" }
+  ]
+}

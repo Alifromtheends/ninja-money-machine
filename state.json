@@ -1,0 +1,149 @@
+{
+  "opportunities": [
+    {
+      "id": "seed-dev-tool-1779220872568",
+      "source": "seed",
+      "title": "Browser extension that summarizes any webpage in 3 bullet points",
+      "url": "https://example.com",
+      "upvotes": 350,
+      "comments": 120,
+      "score": 90,
+      "recommendedBuild": "chrome-extension",
+      "timestamp": "2026-05-19T20:01:12.568Z",
+      "built": false,
+      "rejected": false,
+      "launched": false
+    },
+    {
+      "id": "seed-ai-automation-1779220872558",
+      "source": "seed",
+      "title": "AI-powered social media content scheduler with auto-hashtag generation",
+      "url": "https://example.com",
+      "upvotes": 200,
+      "comments": 80,
+      "score": 85,
+      "recommendedBuild": "chrome-extension",
+      "timestamp": "2026-05-19T20:01:12.558Z",
+      "built": false,
+      "rejected": false,
+      "launched": false
+    },
+    {
+      "id": "seed-productivity-1779220872568",
+      "source": "seed",
+      "title": "Voice-to-text meeting notes with action item extraction",
+      "url": "https://example.com",
+      "upvotes": 180,
+      "comments": 65,
+      "score": 78,
+      "recommendedBuild": "chrome-extension",
+      "timestamp": "2026-05-19T20:01:12.568Z",
+      "built": false,
+      "rejected": false,
+      "launched": false
+    }
+  ],
+  "deployed": [
+    {
+      "id": "seed-dev-tool-1779205224843",
+      "source": "seed",
+      "title": "Browser extension that summarizes any webpage in 3 bullet points",
+      "url": "https://example.com",
+      "upvotes": 350,
+      "comments": 120,
+      "score": 90,
+      "recommendedBuild": "chrome-extension",
+      "timestamp": "2026-05-19T15:40:24.843Z",
+      "built": true,
+      "rejected": false,
+      "launched": true,
+      "builtAt": "2026-05-19T15:50:49.049Z",
+      "projectDir": "/Users/ali-bulatsalamov/ninja-money-machine/deployed/seed-dev-tool-1779205224843",
+      "launchedAt": "2026-05-19T16:24:02.438Z",
+      "launchPlatforms": [
+        "twitter",
+        "reddit",
+        "producthunt"
+      ],
+      "liveUrl": "https://seed-dev-tool-1779205224843.vercel.app",
+      "appUrl": "https://seed-dev-tool-1779205224843.vercel.app/popup.html",
+      "name": "TL;DR"
+    },
+    {
+      "id": "seed-ai-automation-1779205224828",
+      "source": "seed",
+      "title": "AI-powered social media content scheduler with auto-hashtag generation",
+      "url": "https://example.com",
+      "upvotes": 200,
+      "comments": 80,
+      "score": 85,
+      "recommendedBuild": "chrome-extension",
+      "timestamp": "2026-05-19T15:40:24.828Z",
+      "built": true,
+      "rejected": false,
+      "launched": true,
+      "builtAt": "2026-05-19T16:14:59.495Z",
+      "projectDir": "/Users/ali-bulatsalamov/ninja-money-machine/deployed/seed-ai-automation-1779205224828",
+      "launchedAt": "2026-05-19T16:24:02.444Z",
+      "launchPlatforms": [
+        "twitter",
+        "reddit",
+        "producthunt"
+      ],
+      "liveUrl": "https://seed-ai-automation-1779205224828.vercel.app",
+      "appUrl": "https://seed-ai-automation-1779205224828.vercel.app/app.html",
+      "name": "PostPilot"
+    },
+    {
+      "id": "seed-productivity-1779205224843",
+      "source": "seed",
+      "title": "Voice-to-text meeting notes with action item extraction",
+      "url": "https://example.com",
+      "upvotes": 180,
+      "comments": 65,
+      "score": 78,
+      "recommendedBuild": "chrome-extension",
+      "timestamp": "2026-05-19T15:40:24.843Z",
+      "built": true,
+      "rejected": false,
+      "launched": true,
+      "builtAt": "2026-05-19T16:20:43.138Z",
+      "projectDir": "/Users/ali-bulatsalamov/ninja-money-machine/deployed/seed-productivity-1779205224843",
+      "launchedAt": "2026-05-19T16:24:02.444Z",
+      "launchPlatforms": [
+        "twitter",
+        "reddit",
+        "producthunt"
+      ],
+      "liveUrl": "https://seed-productivity-1779205224843.vercel.app",
+      "appUrl": "https://seed-productivity-1779205224843.vercel.app/app.html",
+      "name": "NoteNinja"
+    }
+  ],
+  "lastBuild": "2026-05-19T16:20:43.145Z",
+  "lastLaunch": "2026-05-19T16:24:02.444Z",
+  "monetization": {
+    "active": true,
+    "stripeConnected": true,
+    "mode": "LIVE",
+    "products": 5,
+    "pricingTiers": 8,
+    "priceIdsConfigured": true,
+    "checkoutTested": true,
+    "activatedAt": "2026-05-19T19:08:33.190Z",
+    "deployed": true,
+    "stripeBackend": "https://stripe-backend-vercel-five.vercel.app/api/checkout",
+    "liveUrls": [
+      "https://seed-dev-tool-1779205224843.vercel.app",
+      "https://seed-ai-automation-1779205224828.vercel.app",
+      "https://seed-productivity-1779205224843.vercel.app"
+    ]
+  },
+  "daemon": {
+    "status": "running",
+    "startedAt": "2026-05-19T16:40:24.000Z",
+    "cycleCount": 1,
+    "lastCycle": "2026-05-19T17:40:24.000Z"
+  },
+  "lastScout": "2026-05-20T06:01:06.092Z"
+}
